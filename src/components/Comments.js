@@ -5,7 +5,7 @@ const Comments = ({comments}) => {
 
     return (
         <div>
-            {comments.length > 0 && <h1>Comments - {comments.length}</h1>}
+            <h1>{comments.length > 0 ? "Comments - " + comments.length : "No comments found"}</h1>
             {comments && comments.map((comment) => {
                 return (
                     <Comment comment={comment} />

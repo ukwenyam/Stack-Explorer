@@ -4,7 +4,7 @@ const Answers = ({answers}) => {
 
     return (
         <div>
-            {answers.length > 0 && <h1>Answers - {answers.length}</h1>}
+            <h1>{answers.length > 0 ? "Answers - " + answers.length : "No Answers found for this question"}</h1>
             {answers && answers.map(answer => {
                 return (
                     <Answer answer={answer} />

@@ -14,7 +14,7 @@ const Questions = ({questions, title}) => {
 
     return (
         <div className={styles.container}>
-            <h1>{title}</h1>
+            <h1>{ questions.length > 0 ? title : "No " + title + " found for that tag"}</h1>
             <TableContainer component={Paper}>
                 <Table className={classes.table} aria-label="simple table">
                     <TableHead>
