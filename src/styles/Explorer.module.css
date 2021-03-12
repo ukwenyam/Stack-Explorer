@@ -1,0 +1,38 @@
+.paper {
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    padding: 50px;
+}
+
+.form{
+    margin-top: 100px;
+}
+
+.label {
+    display: block;
+    width: 260px;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+.label span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #505f75;
+    text-transform: uppercase;
+}
+
+.input {
+    margin: 20px;
+}
+
+.submit {
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.description {
+    padding: 20px;
+    margin: 20px;
+}
